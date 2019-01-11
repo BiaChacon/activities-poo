@@ -1,3 +1,4 @@
+package Atividade1;
 
 public class Robo {
 	private int linha, coluna;
@@ -11,7 +12,7 @@ public class Robo {
 	}
 	
 	public void mostrarPosicao() {
-		System.out.println("[Robo] esta na posição ("+linha+","+coluna+") da sala");
+		System.out.println("[Robo] esta na posiï¿½ï¿½o ("+linha+","+coluna+") da sala");
 	}
 	
 	public void andarFrente() {
@@ -20,17 +21,17 @@ public class Robo {
 			System.out.println("[Robo]: Andando para frente\n");
 		}
 		else {
-			System.out.println("Opção não pode ser realizada pois robor saira sala\n");
+			System.out.println("Opï¿½ï¿½o nï¿½o pode ser realizada pois robor saira sala\n");
 		}	
 	}
 	
 	public void andarTras() {
 		if(linha-fatorMovimento >= 0) {
 			linha = linha-fatorMovimento;
-			System.out.println("[Robo]: Andando para trás\n");
+			System.out.println("[Robo]: Andando para trï¿½s\n");
 		}
 		else {
-			System.out.println("Opção não pode ser realizada pois robor saira sala\n");
+			System.out.println("Opï¿½ï¿½o nï¿½o pode ser realizada pois robor saira sala\n");
 		}
 	}
 	
@@ -43,7 +44,7 @@ public class Robo {
 			System.out.println("[Robo]: Vinrando para direita\n");
 		}
 		else {
-			System.out.println("Opção não pode ser realizada pois robor saira sala\n");
+			System.out.println("Opï¿½ï¿½o nï¿½o pode ser realizada pois robor saira sala\n");
 		}
 	}
 	
@@ -53,7 +54,7 @@ public class Robo {
 			System.out.println("[Robo]: Virando para esquerda\n");
 		}
 		else {
-			System.out.println("Opção não pode ser realizada pois robor saira sala\n");
+			System.out.println("Opï¿½ï¿½o nï¿½o pode ser realizada pois robor saira sala\n");
 		}
 	}
 	

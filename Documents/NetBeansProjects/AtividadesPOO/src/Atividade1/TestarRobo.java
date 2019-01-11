@@ -1,3 +1,5 @@
+package Atividade1;
+
 import java.util.Scanner;
 
 public class TestarRobo {
@@ -14,7 +16,7 @@ public class TestarRobo {
 	}
 	public void iniciarRobor() {	
 		int l, c;
-		System.out.println("Informe a posição do robor no ambiente (linha e coluna)");
+		System.out.println("Informe a posiï¿½ï¿½o do robor no ambiente (linha e coluna)");
 		l = input.nextInt();
 		c = input.nextInt();
 		r2d2 = new Robo(l, c, sala);
@@ -26,7 +28,7 @@ public class TestarRobo {
 			
 			r2d2.mostrarPosicao();
 			System.out.println( "1 - Andar para Frente\r\n" + 
-								"2 - Andar para Trás\r\n" + 
+								"2 - Andar para Trï¿½s\r\n" + 
 								"3 - Parar\n" +
 								"4 - Virar para Direita\n" +
 								"5 - Virar para Esquerda\n" +
@@ -52,7 +54,7 @@ public class TestarRobo {
 					System.out.println("Saindo...\n");
 					break;
 				default:
-					System.out.println("Opção inválida");
+					System.out.println("Opï¿½ï¿½o invï¿½lida");
 			}
 		}while(opcao != 6);
 	}

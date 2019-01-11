@@ -1,4 +1,4 @@
-package modelo;
+package Atividade2;
 
 public class Jogador {
     private String nome;

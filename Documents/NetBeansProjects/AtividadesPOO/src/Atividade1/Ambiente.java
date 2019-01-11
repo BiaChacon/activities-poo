@@ -1,3 +1,4 @@
+package Atividade1;
 
 public class Ambiente {
 	private int qtsLinhas, qtsColunas;
